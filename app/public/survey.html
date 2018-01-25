@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Find a Friend!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading" style="background-color: #286090; color:white">
+		  		<h1>Survey Questions</h1>
+		  	</div>
+			<div class="panel-body">
+		    	<h2>About You</h2>
+		    	<h3>(All Fields Required)</h3>
+
+		    	<form action="">
+		    		<div class="form-group">
+		    			<label for="Name">Name</label>
+					    <input type="text" class="form-control" id="nameInput" required>
+					</div>
+
+					<div class="form-group">
+		    			<label for="Photo">Link to Photo</label>
+					    <input type="text" class="form-control" id="photo" required>
+					</div>
+
+					<hr>
+		    	</form>
+
+		    	<h3>
+		    		Question 1
+		    	</h3>
+		    	<h4>
+		    		You prefer to have a smaller, closer group of friends rather than a large group of acquaintances.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q1" name="q1" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q1" name="q1" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q1" name="q1" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q1" name="q1" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q1" name="q1" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 2
+		    	</h3>
+		    	<h4>
+		    		Generally speaking, you rely more on your experience than your imagination.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q2" name="q2" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q2" name="q2" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q2" name="q2" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q2" name="q2" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q2" name="q2" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 3
+		    	</h3>
+		    	<h4>
+		    		You find it easy to stay relaxed and focused even when there is some pressure.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q3" name="q3" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q3" name="q3" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q3" name="q3" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q3" name="q3" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q3" name="q3" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 4
+		    	</h3>
+		    	<h4>
+		    		You rarely do something just out of sheer curiosity.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q4" name="q4" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q4" name="q4" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q4" name="q4" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q4" name="q4" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q4" name="q4" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 5
+		    	</h3>
+		    	<h4>
+		    		People can rarely upset you.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q5" name="q5" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q5" name="q5" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q5" name="q5" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q5" name="q5" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q5" name="q5" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 6
+		    	</h3>
+		    	<h4>
+		    		In a discussion, truth should be more important than people’s sensitivities.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q6" name="q6" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q6" name="q6" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q6" name="q6" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q6" name="q6" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q6" name="q6" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 7
+		    	</h3>
+		    	<h4>
+		    		You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q7" name="q7" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q7" name="q7" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q7" name="q7" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q7" name="q7" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q7" name="q7" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 8
+		    	</h3>
+		    	<h4>
+		    		You like dogs more than most people.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q8" name="q8" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q8" name="q8" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q8" name="q8" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q8" name="q8" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q8" name="q8" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 9
+		    	</h3>
+		    	<h4>
+		    		You prefer to spend the night at home rather than out and about.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q9" name="q9" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q9" name="q9" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q9" name="q9" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q9" name="q9" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q9" name="q9" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<h3>
+		    		Question 10
+		    	</h3>
+		    	<h4>
+		    		It is often difficult for you to relate to other people’s feelings.
+		    	</h4>
+
+				<div>
+					<input type="radio" id="q10" name="q10" value="1">
+				    <label for="checkbox1">1 (Strongly Disagree)</label>
+				</div>
+				
+				<div>
+				    <input type="radio" id="q10" name="q10" value="2">
+				    <label for="checkbox2">2 (Disagree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q10" name="q10" value="3">
+				    <label for="checkbox3">3 (Neutral)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q10" name="q10" value="4">
+				    <label for="checkbox4">4 (Agree)</label>
+				</div>
+
+				<div>
+				    <input type="radio" id="q10" name="q10" value="5">
+				    <label for="checkbox5">5 (Strongly Disagree)</label>
+				</div>
+
+				<hr>
+
+				<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+
+
+
+
+		  	</div>
+		</div>
+
+
+
+	</div>
+
+ <!-- Modal -->
+  <div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="match-name"></h2>
+          <img id="match-img" src="" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+	<script type="text/javascript">
+		$("#submit").click(function() {
+			event.preventDefault();
+
+			if($("#nameInput").val() && $("#photo").val() && $("input[name='q1']:checked") && $("input[name='q2']:checked") && $("input[name='q3']:checked") && $("input[name='q4']:checked") && $("input[name='q5']:checked") && $("input[name='q6']:checked") && $("input[name='q7']:checked") && $("input[name='q8']:checked") && $("input[name='q9']:checked") && $("input[name='q10']:checked")) {
+
+				var userInfo = {
+					name: $("#nameInput").val().trim(),
+					photo: $("#photo").val().trim(),
+					scores: 
+							[$("input[name='q1']:checked").val(), 
+							 $("input[name='q2']:checked").val(), 
+							 $("input[name='q3']:checked").val(),
+							 $("input[name='q4']:checked").val(),
+							 $("input[name='q5']:checked").val(),
+							 $("input[name='q6']:checked").val(),
+						 	 $("input[name='q7']:checked").val(),
+							 $("input[name='q8']:checked").val(),
+							 $("input[name='q9']:checked").val(),
+							 $("input[name='q10']:checked").val()]
+				};
+
+
+
+						// AJAX post the data to the friends API.
+        		$.post("/api/friends", userInfo, function(data) {
+		          	// Grab the result from the AJAX post so that the best match's name and photo are displayed.
+		          	$("#match-name").text(data.name);
+		          	$("#match-img").attr("src", data.photo);
+		          	// Show the modal with the best match
+          			$("#results-modal").modal("toggle");
+
+        		});
+			} else {
+				alert("Please fill out all fields.")
+			}
+			
+		})
+		
+	</script>
+	
+</body>
+</html>

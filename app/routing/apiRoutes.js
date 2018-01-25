@@ -11,24 +11,23 @@ module.exports = function(app) {
 
   app.post("/api/friends", function(req, res) {
     
-    console.log(req.body);
-    // var userAnswers = req.body.scores;
-    // var closestMatch;
-    // var smallestDifference = 100;
+    var userAnswers = req.body.scores;
+    var closestMatch;
+    var smallestDifference = 100;
     
-    // for (var i = 0; i < friends.length; i++) {
-    // 	var score = 0;
-    // 	for (var j = 0; j < friends[i].scores.length; j++) {
-    // 		score += Math.abs(friends[i].scores[j] - userAnswers[j]);
-    // 	} 
+    for (var i = 0; i < friends.length; i++) {
+    	var score = 0;
+    	for (var j = 0; j < friends[i].scores.length; j++) {
+    		score += Math.abs(friends[i].scores[j] - userAnswers[j]);
+    	} 
 
-    // 	if (score < smallestDifference) {
-    // 			smallestDifference = score;
-    // 			closestMatch = friends[i];
-    // 		}
+    	if (score < smallestDifference) {
+    			smallestDifference = score;
+    			closestMatch = friends[i];
+    		}
 
-    // }
-    // res.json(closestMatch);
+    }
+    res.json(closestMatch);
 
   });
 };
